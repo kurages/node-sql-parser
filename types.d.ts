@@ -14,9 +14,9 @@ export interface With {
   };
   columns?: any[];
 }
-import { LocationRange } from "pegjs";
+import { LocationRange } from "peggy";
 
-export { LocationRange, Location } from "pegjs";
+export { LocationRange, Location } from "peggy";
 
 export type WhilteListCheckMode = "table" | "column";
 export interface ParseOptions {
