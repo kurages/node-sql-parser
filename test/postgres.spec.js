@@ -2071,7 +2071,7 @@ describe('Postgres', () => {
     ]
     neatlyNestTestedSQL(SQL_LIST)
   })
-  
+
   describe('pg ast', () => {
     it('should get correct columns and tables', () => {
       let sql = 'SELECT "Id" FROM "Test";'
@@ -2144,6 +2144,7 @@ describe('Postgres', () => {
           "line": 1,
           "column": 31
         },
+        "source": undefined,
         "end": {
           "offset": 54,
           "line": 1,
@@ -2156,6 +2157,7 @@ describe('Postgres', () => {
           "line": 1,
           "column": 35
         },
+        "source": undefined,
         "end": {
           "offset": 53,
           "line": 1,
